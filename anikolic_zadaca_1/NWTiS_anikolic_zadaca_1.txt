@@ -1,0 +1,16 @@
+#anikolic
+#Wed Apr 03 09:37:45 CEST 2019
+korisnik.marija=lozinka1
+interval.nadzora=10
+korisnik.ivo=ivo
+maks.dretvi=10
+datoteka.nadzora=nadzor.txt
+maks.cekaca=12
+datoteka.aerodroma=aerodromi.bin
+interval.serijalizacije=6
+korisnik.ivana=admin123
+port=8580
+korisnik.ana=ana
+korisnik.admin=lozinka
+korisnik.petar=petar
+korisnik.mate=lozinkamate

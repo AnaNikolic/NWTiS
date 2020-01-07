@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <h:outputScript library="js" name="pregledLetova.js"/>
+        <title>Pregled letova</title>
+    </h:head>
+    <h:body>
+        <h:form id="forma">
+            <h:outputLabel id="poruka" value="#{dodavanjeLetova.poruka}"/>
+            <h:panelGrid columns="2">
+                <h:panelGrid columns="2">
+                    <h:outputLabel value="Od vremena: "></h:outputLabel>
+                    <h:inputText id="odVremena" value="#{pregledLetova.odVremena}"/>
+                    <h:outputLabel value="Do vremena: "></h:outputLabel>
+                    <h:inputText id="doVremena" value="#{pregledLetova.doVremena}"/>
+                </h:panelGrid>
+                <h:commandButton id="gumbPreuzmi" value="Preuzmi letove" action="#{pregledLetova.ucitajLetove()}">
+                    <f:ajax event="action" execute="odVremena doVremena putnik" render="forma:letovi forma:poruka forma:ukupno" />
+                </h:commandButton>
+                <h:panelGroup>
+                    <h:selectOneListbox id="putnik" value="#{pregledLetova.odabraniPutnik}" size="#{pregledLetova.tablicaPutnika}">
+                        <f:selectItems value="#{pregledLetova.listaPutnika}"
+                                       var="putnik" itemLabel="#{putnik.firstname} #{putnik.lastname}" itemValue="#{putnik.id}" />
+                    </h:selectOneListbox>
+                </h:panelGroup>
+                <h:outputText value=""></h:outputText>        
+            </h:panelGrid>
+            <h:panelGrid columns="1">
+                <h:dataTable id="letovi" title="Letovi s aerodroma u intervalu" value="#{pregledLetova.letoviPrikaz}" var="let">
+                    <h:column>
+                        <f:facet name="header">ICAO24</f:facet> #{let.icao24}
+                    </h:column>
+                    <h:column>
+                        <f:facet name="header">Znak</f:facet> #{let.callsign}
+                    </h:column>
+                    <h:column>
+                        <f:facet name="header">Polazni</f:facet> #{let.estDepartureAirport}
+                    </h:column>
+                    <h:column>
+                        <f:facet name="header">Odredišni</f:facet> #{let.estArrivalAirport}
+                    </h:column>
+                    <h:column>
+                        <f:facet name="header">Aerodrom</f:facet> #{let.nazivOdredisnogAerodroma}
+                    </h:column>
+                    <h:column>
+                        <f:facet name="header">Vrijeme polaska</f:facet> #{let.vrijemePoletanja}
+                    </h:column>
+                    <h:column>
+                        <f:facet name="header">Akcija</f:facet>
+                        <h:commandButton value="Obriši" action="#{pregledLetova.brisiLet(let.id)}" >
+                            <f:ajax event="action" execute="forma:putnik" render="forma:letovi forma:ukupno forma:poruka"/>
+                        </h:commandButton>
+                    </h:column>                   
+                </h:dataTable>
+                <h:panelGrid columns="4">
+                    <h:outputLabel value="Ukupno: "/>
+                    <h:outputLabel id="ukupno" value="#{pregledLetova.ukupno}"/>
+                    <h:commandButton value="Prethodna" action="#{pregledLetova.prethodna()}"/>
+                    <h:commandButton value="Sljedeća" action="#{pregledLetova.sljedeca()}"/>
+                </h:panelGrid>
+            </h:panelGrid>
+        </h:form>
+    </h:body>
+</html>

@@ -1,0 +1,137 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package org.foi.nwtis.dkermek.ejb.sb;
+
+import java.util.ArrayList;
+import java.util.List;
+import javax.ejb.EJB;
+import javax.ejb.Stateless;
+import javax.ejb.LocalBean;
+import org.foi.nwtis.dkermek.ejb.eb.Airplanes;
+import org.foi.nwtis.dkermek.ejb.eb.Flights;
+import org.foi.nwtis.dkermek.ejb.eb.Myairports;
+import org.foi.nwtis.dkermek.ejb.eb.Passangers;
+import org.foi.nwtis.dkermek.podaci.PodaciLeta;
+import org.foi.nwtis.dkermek.podaci.PodaciPutnika;
+import org.foi.nwtis.rest.klijenti.OSKlijent;
+import org.foi.nwtis.rest.podaci.AvionLeti;
+import org.foi.nwtis.rest.podaci.Lokacija;
+
+/**
+ *
+ * @author nwtis_1
+ */
+@Stateless
+@LocalBean
+public class UpravljanjePutnicima {
+    
+    @EJB
+    private PassangersFacade passangersFacade;
+    @EJB
+    private MyairportsFacade myairportsFacade;
+    @EJB
+    private AirplanesFacade airplanesFacade;
+    @EJB
+    private FlightsFacade flightsFacade;
+    
+    public List<PodaciPutnika> dajeSvePutnike() {
+        List<Passangers> putnici = passangersFacade.findAll();
+        List<PodaciPutnika> listaPutnika = new ArrayList<>();
+        for (Passangers p : putnici) {
+            PodaciPutnika pp = new PodaciPutnika();
+            pp.setId(p.getId());
+            pp.setFirstname(p.getFirstname());
+            pp.setLastname(p.getLastname());
+            pp.setUsername(p.getUsername());
+            listaPutnika.add(pp);
+        }
+        return listaPutnika;
+    }
+    
+    public List<Aerodrom> dajeSveAerodrome() {
+        List<Myairports> aerodromi = myairportsFacade.findAll();
+        List<Aerodrom> listaAerodroma = new ArrayList<>();
+        for (Myairports a : aerodromi) {
+            Aerodrom aerodrom = new Aerodrom();
+            aerodrom.setIcao(a.getIdent());
+            aerodrom.setDrzava(a.getIsoCountry());
+            aerodrom.setNaziv(a.getName());
+            
+            String strKoordinate = a.getCoordinates();
+            String[] koordinate = strKoordinate.split(",");
+            Lokacija lokacija = new Lokacija();
+            lokacija.setLatitude(koordinate[0]);
+            lokacija.setLongitude(koordinate[1]);
+            aerodrom.setLokacija(lokacija);
+            
+            listaAerodroma.add(aerodrom);
+        }
+        return listaAerodroma;
+    }
+    
+    public List<PodaciLeta> preuzmiLetoveBazePodataka(String icao, int odVremena, int doVremena) {
+        List<PodaciLeta> listaPodaciLeta = new ArrayList<>();
+        // TODO dovršiti
+        return listaPodaciLeta;
+    }
+    
+    public List<PodaciLeta> preuzmiLetoveOpenSky(String icao, int odVremena, int doVremena) {
+        List<PodaciLeta> listaPodaciLeta = new ArrayList<>();
+        // TODO preuzmi podatke za spajanje na OpenSky
+        String username = "";
+        String password = "";
+        OSKlijent oSKlijent = new OSKlijent(username, password);
+        List<AvionLeti> avioniPolazak = oSKlijent.getDepartures(icao, odVremena, doVremena);
+        for (AvionLeti al : avioniPolazak) {
+            Airplanes letAviona = new Airplanes();
+            letAviona.setIcao24(al.getIcao24());
+            letAviona.setCallsign(al.getCallsign());
+            letAviona.setEstdepartureairport(al.getEstDepartureAirport());
+            letAviona.setEstarrivalairport(al.getEstArrivalAirport());
+            letAviona.setFirstseen(al.getFirstSeen());
+            letAviona.setLastseen(al.getLastSeen());
+            letAviona.setFlightsList(new ArrayList<Flights>());
+            letAviona.setDepartureairportcandidatescount(al.getDepartureAirportCandidatesCount());
+            letAviona.setArrivalairportcandidatescount(al.getArrivalAirportCandidatesCount());
+            
+            airplanesFacade.create(letAviona);
+        }
+        return preuzmiLetoveBazePodataka(icao, odVremena, doVremena);
+    }
+    
+    public boolean dodajLet(int putnikID, int letAvionaID) {
+        Airplanes letAviona = airplanesFacade.find(letAvionaID);
+        if (letAviona != null) {
+            if (flightsFacade.provjeriPreklapanjeLetova(putnikID, letAviona.getFirstseen(), letAviona.getLastseen())) {
+                // TODO javi poruku da ima preklapanja
+                Passangers putnik = passangersFacade.find(putnikID);
+                if (putnik != null) {
+                    Flights flights = new Flights();
+                    flights.setAirplane(letAviona);
+                    flights.setPassanger(putnik);
+                    flightsFacade.create(flights);
+                    return true;
+                }
+            }
+        }
+        // TODO ispiši poruku za pogrešku
+        return false;
+    }
+    
+    public boolean brisiLet(int letAvionaID) {
+        Flights letAviona = flightsFacade.find(letAvionaID);
+        if (letAviona != null) {
+            flightsFacade.remove(letAviona);
+            return true;
+        }
+        // TODO ispiši poruku za pogrešku
+        return false;
+    }
+    
+    public List<PodaciLeta> preuzmiLetovePutnika(int putnikID,  int odVremena, int doVremena) {
+        return flightsFacade.preuzmiLetovePutnika(putnikID, odVremena, doVremena);
+    }
+}

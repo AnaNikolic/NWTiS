@@ -1,0 +1,108 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package org.foi.nwtis.dkermek.web.zrna;
+
+import javax.inject.Named;
+import javax.enterprise.context.SessionScoped;
+import java.io.Serializable;
+import java.util.List;
+import javax.ejb.EJB;
+import org.foi.nwtis.dkermek.ejb.sb.Aerodrom;
+import org.foi.nwtis.dkermek.ejb.sb.UpravljanjePutnicima;
+import org.foi.nwtis.dkermek.podaci.PodaciLeta;
+import org.foi.nwtis.dkermek.podaci.PodaciPutnika;
+
+
+/**
+ *
+ * @author nwtis_1
+ */
+@Named(value = "dodavanjeLetova")
+@SessionScoped
+public class DodavanjeLetova implements Serializable {
+
+    @EJB
+    private UpravljanjePutnicima upravljanjePutnicima;
+
+    private String odVremena;
+    private String doVremena;
+    private List<PodaciPutnika> listaPutnika;
+    private int odabraniPutnik;
+    private List<Aerodrom> listaAerodroma;
+    private String odabraniAerodrom;
+    private List<PodaciLeta> listaLetova;
+    private int odabraniLet;
+    private boolean preuzetiPodatke;
+
+    /**
+     * Creates a new instance of DodavanjeLetova
+     */
+    public DodavanjeLetova() {
+    }
+
+    public String getOdVremena() {
+        return odVremena;
+    }
+
+    public void setOdVremena(String odVremena) {
+        this.odVremena = odVremena;
+    }
+
+    public String getDoVremena() {
+        return doVremena;
+    }
+
+    public void setDoVremena(String doVremena) {
+        this.doVremena = doVremena;
+    }
+
+    public int getOdabraniPutnik() {
+        return odabraniPutnik;
+    }
+
+    public void setOdabraniPutnik(int odabraniPutnik) {
+        this.odabraniPutnik = odabraniPutnik;
+    }
+
+    public String getOdabraniAerodrom() {
+        return odabraniAerodrom;
+    }
+
+    public void setOdabraniAerodrom(String odabraniAerodrom) {
+        this.odabraniAerodrom = odabraniAerodrom;
+    }
+
+    public int getOdabraniLet() {
+        return odabraniLet;
+    }
+
+    public void setOdabraniLet(int odabraniLet) {
+        this.odabraniLet = odabraniLet;
+    }
+
+    public boolean isPreuzetiPodatke() {
+        return preuzetiPodatke;
+    }
+
+    public void setPreuzetiPodatke(boolean preuzetiPodatke) {
+        this.preuzetiPodatke = preuzetiPodatke;
+    }
+
+    public List<PodaciPutnika> getListaPutnika() {
+        listaPutnika = upravljanjePutnicima.dajeSvePutnike();
+        return listaPutnika;
+    }
+
+    public List<Aerodrom> getListaAerodroma() {
+        listaAerodroma = upravljanjePutnicima.dajeSveAerodrome();
+        return listaAerodroma;
+    }
+
+    public List<PodaciLeta> getListaLetova() {
+        return listaLetova;
+    }
+
+}

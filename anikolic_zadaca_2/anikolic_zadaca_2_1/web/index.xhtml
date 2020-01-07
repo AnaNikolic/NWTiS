@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+    
+    
+     <ui:composition template="./predlozak.xhtml">
+
+            <ui:define name="naslov">
+                #{p['index.naslov']}
+            </ui:define>
+
+            <ui:define name="top">
+                #{p['index.naslov']}
+            </ui:define>
+
+            <ui:define name="content">
+            <h:form>
+                <h:panelGrid columns="2">
+                <h:selectOneRadio value="#{lokalizacija.jezik}">
+                    <f:selectItem itemValue="hr" itemLabel="#{p['index.jezik.hr']}"/> 
+                    <f:selectItem itemValue="en" itemLabel="#{p['index.jezik.en']}"/> 
+                    <f:selectItem itemValue="de" itemLabel="#{p['index.jezik.de']}"/> 
+                </h:selectOneRadio>
+                <h:commandButton value="#{p['index.gumb.odabirJezika']}"
+                                 action="#{lokalizacija.odaberiJezik}"/></h:panelGrid>
+                <h:outputText value=""/>
+            </h:form>
+            <h:form>
+                <h:panelGrid columns="2">
+                    <h:panelGroup>
+                        <h:outputLabel value="#{p['label.aerodrom']}: "/>
+                        <h:inputText value="#{obradaAerodroma.icao}"/>                    
+                    </h:panelGroup>
+                    <h:commandButton value="#{p['label.button.preuzmiNaziv']}" 
+                                     action="#{obradaAerodroma.preuzmiNazivAerodroma()}"/>
+                        <h:outputLabel value="#{p['label.nazivAerodroma']}: "/>
+                        <h:outputText value="#{obradaAerodroma.aerodrom.naziv}"/>
+                    <h:panelGroup>
+                        <h:outputLabel value="Lat: "/>
+                        <h:outputText value="#{obradaAerodroma.aerodrom.lokacija.latitude}"/>
+                        <br/>
+                        <h:outputLabel value="Lon: "/>
+                        <h:outputText value="#{obradaAerodroma.aerodrom.lokacija.longitude}"/>
+                    </h:panelGroup>
+                    <h:commandButton value="#{p['label.button.preuzmiGPS']}" action="#{obradaAerodroma.preuzmiGPSLokaciju()}"/>
+                    <h:outputText value=""/>
+                    <h:commandButton value="#{p['label.button.spremiAerodrom']}" action="#{obradaAerodroma.spremiAerodrom()}"/>
+                    <h:panelGroup>
+                        <h:outputLabel value="Temp: "/>
+                        <h:outputText value="#{obradaAerodroma.meteoPodaci.temperatureValue}"/>
+                        <br/>
+                        <h:outputLabel value="#{p['label.tlak']}: "/>
+                        <h:outputText value="#{obradaAerodroma.meteoPodaci.pressureValue}"/>
+                        <br/>
+                        <h:outputLabel value="#{p['label.vlaga']}: "/>
+                        <h:outputText value="#{obradaAerodroma.meteoPodaci.humidityValue}"/>
+                        <h:outputText value="#{obradaAerodroma.pom}"/>
+                        
+                    </h:panelGroup>
+                    <h:commandButton value="#{p['label.button.preuzmiMeteo']}" action="#{obradaAerodroma.preuzmiMeteoPodatke()}"/>
+                </h:panelGrid>
+            </h:form>
+            </ui:define>
+         <ui:define name="bottom">
+             <h:outputLabel value="#{p[obradaAerodroma.poruka]}"/>
+         </ui:define>
+        </ui:composition>
+
+</html>
+

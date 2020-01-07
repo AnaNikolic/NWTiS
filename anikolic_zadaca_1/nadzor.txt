@@ -1,0 +1,386 @@
+04.04.2019 02:20:33.399
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 02:23:44.765
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 02:32:03.393
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 02:32:13.404
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 02:34:13.939
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 02:34:23.953
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 02:34:36.226
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 02:34:46.244
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 02:34:56.246
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 02:35:06.256
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 02:39:01.127
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 02:39:11.133
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 02:39:21.155
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 02:39:31.163
+anikolic_KD 14 anikolic_KD-0 WAITING 5
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 02:39:41.177
+anikolic_KD 14 anikolic_KD-0 WAITING 5
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 02:41:47.236
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 02:44:57.894
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 02:45:29.197
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 02:45:39.217
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 02:45:49.223
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 02:45:59.230
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 02:46:09.233
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 02:46:19.245
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 02:46:52.960
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 02:47:20.306
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 02:47:30.322
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 02:48:21.581
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 02:49:55.074
+anikolic_KD 14 anikolic_KD-0 WAITING 5
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 02:50:05.087
+anikolic_KD 14 anikolic_KD-0 WAITING 5
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 02:50:15.103
+anikolic_KD 14 anikolic_KD-0 WAITING 5
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 02:50:25.121
+anikolic_KD 14 anikolic_KD-0 WAITING 5
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 02:52:18.819
+anikolic_KD 14 anikolic_KD-0 WAITING 5
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 02:53:29.441
+anikolic_KD 14 anikolic_KD-0 WAITING 5
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 02:54:47.427
+anikolic_KD 14 anikolic_KD-0 WAITING 5
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 02:54:57.447
+anikolic_KD 14 anikolic_KD-0 WAITING 5
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 02:55:07.465
+anikolic_KD 14 anikolic_KD-0 WAITING 5
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 02:55:17.473
+anikolic_KD 14 anikolic_KD-0 WAITING 5
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 02:55:27.482
+anikolic_KD 14 anikolic_KD-0 WAITING 5
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 02:55:37.510
+anikolic_KD 14 anikolic_KD-0 WAITING 5
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 02:55:47.524
+anikolic_KD 14 anikolic_KD-0 WAITING 5
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 02:57:38.873
+anikolic_KD 14 anikolic_KD-0 WAITING 5
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 02:57:48.885
+anikolic_KD 14 anikolic_KD-0 WAITING 5
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 02:58:46.234
+anikolic_KD 14 anikolic_KD-0 WAITING 5
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 03:01:50.265
+anikolic_KD 14 anikolic_KD-0 WAITING 5
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 03:02:00.279
+anikolic_KD 14 anikolic_KD-0 WAITING 5
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 03:02:10.283
+anikolic_KD 14 anikolic_KD-0 WAITING 5
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 03:02:20.294
+anikolic_KD 14 anikolic_KD-0 WAITING 5
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 03:02:30.295
+anikolic_KD 14 anikolic_KD-0 WAITING 5
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 03:02:40.300
+anikolic_KD 14 anikolic_KD-0 WAITING 5
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 03:02:50.315
+anikolic_KD 14 anikolic_KD-0 WAITING 5
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 03:03:00.318
+anikolic_KD 14 anikolic_KD-0 WAITING 5
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 03:03:10.326
+anikolic_KD 14 anikolic_KD-0 WAITING 5
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 03:05:04.358
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 03:05:14.379
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 03:10:26.243
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 03:10:36.261
+anikolic_KD 14 anikolic_KD-0 WAITING 5
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 03:10:46.265
+anikolic_KD 14 anikolic_KD-0 WAITING 5
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 03:10:56.277
+anikolic_KD 14 anikolic_KD-0 WAITING 5
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 03:11:06.294
+anikolic_KD 14 anikolic_KD-0 WAITING 5
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 03:11:16.307
+anikolic_KD 14 anikolic_KD-0 WAITING 5
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 03:11:26.313
+anikolic_KD 14 anikolic_KD-0 WAITING 5
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 03:12:57.565
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 03:17:10.186
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 03:19:01.855
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 03:23:50.595
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 03:24:00.607
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 03:24:10.611
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 03:28:52.363
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 03:39:08.651
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 03:39:18.656
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 03:39:28.668
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 03:39:38.697
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 03:39:48.703
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 03:46:39.291
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 03:54:31.603
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 04:01:41.128
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 04:10:04.198
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 04:10:14.215
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 04:10:24.226
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 04:10:34.234
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 04:10:44.238
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 04:10:54.244
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 04:11:04.249
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 04:11:14.253
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 04:11:24.265
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 04:11:34.269
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 04:11:44.273
+anikolic_KD 14 anikolic_KD-0 WAITING 5
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 04:11:54.287
+anikolic_KD 14 anikolic_KD-0 TIMED_WAITING 5
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 04:12:04.290
+anikolic_KD 14 anikolic_KD-0 WAITING 5
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 04:12:14.293
+anikolic_KD 14 anikolic_KD-0 WAITING 5
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 04:13:12.030
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 04:13:22.050
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 04:13:32.060
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 04:13:42.070
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 04:13:52.073
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 04:14:22.780
+anikolic_KD 14 anikolic_KD-0 WAITING 5
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 04:14:32.814
+anikolic_KD 14 anikolic_KD-0 TIMED_WAITING 5
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 04:14:42.826
+anikolic_KD 14 anikolic_KD-0 WAITING 5
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 04:14:52.840
+anikolic_KD 14 anikolic_KD-0 WAITING 5
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 04:15:02.844
+anikolic_KD 14 anikolic_KD-0 WAITING 5
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 04:15:12.845
+anikolic_KD 14 anikolic_KD-0 WAITING 5
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 04:15:22.861
+anikolic_KD 14 anikolic_KD-0 WAITING 5
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 04:15:32.864
+anikolic_KD 14 anikolic_KD-0 WAITING 5
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 04:15:42.865
+anikolic_KD 14 anikolic_KD-0 WAITING 5
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 04:15:52.867
+anikolic_KD 14 anikolic_KD-0 WAITING 5
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 04:16:02.875
+anikolic_KD 14 anikolic_KD-0 WAITING 5
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 04:16:12.889
+anikolic_KD 14 anikolic_KD-0 WAITING 5
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 04:16:22.897
+anikolic_KD 14 anikolic_KD-0 WAITING 5
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 04:41:30.712
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 04:42:19.053
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 05:09:54.949
+anikolic_KD 14 anikolic_KD-0 WAITING 5
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 05:10:04.954
+anikolic_KD 14 anikolic_KD-0 WAITING 5
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 05:12:45.999
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5
+04.04.2019 05:13:06.017
+anikolic_SD 13 anikolic_SD_1 TIMED_WAITING 5
+anikolic_SD 25 anikolic_SD_2 RUNNABLE 5

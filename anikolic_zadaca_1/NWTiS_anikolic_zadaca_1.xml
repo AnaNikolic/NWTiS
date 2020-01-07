@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>anikolic</comment>
+<entry key="korisnik.marija">lozinka1</entry>
+<entry key="interval.nadzora">10</entry>
+<entry key="korisnik.ivo">ivo</entry>
+<entry key="maks.dretvi">10</entry>
+<entry key="datoteka.nadzora">nadzor.txt</entry>
+<entry key="maks.cekaca">12</entry>
+<entry key="datoteka.aerodroma">aerodromi.bin</entry>
+<entry key="korisnik">mato</entry>
+<entry key="interval.serijalizacije">6</entry>
+<entry key="korisnik.ivana">admin123</entry>
+<entry key="port">8580</entry>
+<entry key="korisnik.ana">ana</entry>
+<entry key="korisnik.admin">lozinka</entry>
+<entry key="korisnik.petar">petar</entry>
+<entry key="korisnik.mate">lozinkamate</entry>
+</properties>

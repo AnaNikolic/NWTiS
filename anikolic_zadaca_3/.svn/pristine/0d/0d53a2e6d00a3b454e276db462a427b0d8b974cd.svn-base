@@ -1,0 +1,44 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package org.foi.nwtis.dkermek.ejb.sb;
+
+import java.util.ArrayList;
+import java.util.List;
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+import org.foi.nwtis.dkermek.ejb.eb.Flights;
+import org.foi.nwtis.dkermek.podaci.PodaciLeta;
+
+/**
+ *
+ * @author nwtis_1
+ */
+@javax.ejb.Stateless
+public class FlightsFacade extends AbstractFacade<Flights> {
+
+    @PersistenceContext(unitName = "NWTiS_DZ3_PU")
+    private EntityManager em;
+
+    @Override
+    protected EntityManager getEntityManager() {
+        return em;
+    }
+
+    public FlightsFacade() {
+        super(Flights.class);
+    }
+    
+    public boolean  provjeriPreklapanjeLetova(int id, int odVremena, int doVremena){
+        //TODO dovrĹˇi
+        return false;    
+    }
+    
+    public List<PodaciLeta>  preuzmiLetovePutnika (int id, int odVremena, int doVremena){
+        List<PodaciLeta> podaciLeta = new ArrayList<>();
+        //TODO dovrĹˇi
+        return podaciLeta;    
+    }    
+}
